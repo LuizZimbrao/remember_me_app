@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.container > p {
+  font-size: 24px;
+  color: var(--title);
+  margin-bottom: 64px;
+}
+
+.themeContainer {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  padding: 0 16px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  background: var(--background);
+  border: 1px solid var(--main-color);
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.themeContainer:hover {
+  background: var(--hover);
+  transition: background 0.2s ease-in;
+}
+
+.themeContainer p {
+  color: var(--main-color);
+  margin: 0;
+}

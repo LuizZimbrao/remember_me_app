@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  font-family: 'Rhodium Libre', sans-serif;
+}
+
+:root {
+  --background: #fff;
+  --main-color: #5061FC;
+  --header: #fff;
+  --hover: #E0EEFF;
+  --title: #666;
+}
